@@ -1,0 +1,7 @@
+<div class="col-md-3">
+  <p class="lead">Games</p>
+  <div class="list-group">
+    <a class="list-group-item" *ngFor="let game of games" (click)= "onSelect(game)" [class.selected]="game === selectedGame">{{game.title}}</a>
+  </div>
+</div>
+<game-detail [game]="selectedGame"></game-detail>

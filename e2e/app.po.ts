@@ -1,4 +1,4 @@
-export class StoryLineTrackerPage {
+export class doovdePage {
   navigateTo() {
     return browser.get('/');
   }

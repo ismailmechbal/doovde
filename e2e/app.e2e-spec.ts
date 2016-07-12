@@ -1,10 +1,10 @@
-import { StoryLineTrackerPage } from './app.po';
+import { doovdePage } from './app.po';
 
-describe('story-line-tracker App', function() {
-  let page: StoryLineTrackerPage;
+describe('doovde App', function() {
+  let page: doovdePage;
 
   beforeEach(() => {
-    page = new StoryLineTrackerPage();
+    page = new doovdePage();
   });
 
   it('should display message saying app works', () => {
